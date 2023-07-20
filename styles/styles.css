@@ -1,0 +1,17 @@
+.titulo{
+    font-size: 18px;
+    font-weight: 700;
+    height: 80px;
+}
+img, .carousel{
+    max-width: 600px;
+}
+
+  /* Cambiar el color de las letras */
+.carousel-caption {
+    color: black; /* Cambia "blue" al color deseado */
+}
+.navbar-collapse{
+    background-color: rgba(128, 128, 128, 0.952);
+    color: white;
+}

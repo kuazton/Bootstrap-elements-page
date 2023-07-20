@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body class="container">
+    <h1 class="d-flex justify-content-center">Mi pagina web</h1>
+    <button class="btn btn-primary mb-3" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
+        Menú
+    </button>
+    <div class="collapse navbar-collapse col-12" id="collapseMenu">
+        <nav class="row d-flex align-items-center ">
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn0">Inicio</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn1">Alertas</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn2">Badges</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn3">Botones</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn4">Grupo de botones</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn5">Cards o tarjetas</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn6">Layout de cards estilo masonry</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn7">Carousel</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn8">Collapse</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn9">Dropdowns</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn10">Formulario</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn11">Formulario inline</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn12">Grupos de input</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn13">Grid con formularios</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn14">Jumbotron</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn15">List groups</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn16">Mostrar y ocultar con list groups</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn17">Modales</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn18">Navs</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn19">Navbars</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn20">Paginacion</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn21">Popovers</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn22">Progress bars</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn23">Scrollspy</div></div>
+            <div class="col-2"><div class="titulo d-flex align-items-center justify-content-center text-center " id="btn24">Tooltips</div></div>
+        </nav>
+    </div>
+    <div id="caj0">
+        <div>
+            <h2 class="pt-2">Boostrap elements</h2>
+        </div>
+    </div>
+    <div id="caj1">
+        <div class="alert alert-success">
+            ¡Éxito! El formulario se ha enviado correctamente.
+          </div>
+          
+          <div class="alert alert-info">
+            Esta es una alerta de información. Ten en cuenta esta información importante.
+          </div>
+          
+          <div class="alert alert-warning">
+            Advertencia: Esta acción puede tener consecuencias no deseadas.
+          </div>
+          
+          <div class="alert alert-danger">
+            ¡Peligro! Se ha producido un error en el sistema. Por favor, contacta al administrador.
+          </div>
+          
+    </div>
+    <div id="caj2">
+        <span class="p-2 badge badge-primary">5</span>
+        <span class="p-2 badge badge-danger">Nuevo</span>
+        <span class="p-2 badge badge-secondary">2</span>
+        <span class="p-2 badge badge-info">Tecnología</span>
+        <span class="p-2 badge badge-success">Promoción</span>
+        <span class="p-2 badge badge-warning">Importante</span>
+        <span class="p-2 badge badge-success">Disponible</span>
+        <span class="p-2 badge badge-warning">En proceso</span>
+        <span class="p-2 badge badge-danger">No disponible</span>
+    </div>
+    <div id="caj3">
+        <button type="button" class="my-2 btn btn-primary">Botón primario</button>
+        <button type="button" class="my-2 btn btn-secondary">Botón secundario</button>
+        <button type="button" class="my-2 btn btn-success">Botón de éxito</button>
+        <button type="button" class="my-2 btn btn-danger">Botón de peligro</button>
+        <button type="button" class="my-2 btn btn-warning">Botón de advertencia</button>
+        <button type="button" class="my-2 btn btn-info">Botón de información</button>
+        <button type="button" class="my-2 btn btn-light">Botón de luz</button>
+        <button type="button" class="my-2 btn btn-dark">Botón oscuro</button>
+    </div>
+    <div id="caj4">
+        <div class="btn-group" role="group" aria-label="Grupo de botones">
+            <button type="button" class="btn btn-primary">Botón 1</button>
+            <button type="button" class="btn btn-primary">Botón 2</button>
+            <button type="button" class="btn btn-primary">Botón 3</button>
+        </div>
+      
+        <div class="btn-group" role="group" aria-label="Grupo de botones">
+            <button type="button" class="btn btn-secondary">Botón 4</button>
+            <button type="button" class="btn btn-secondary">Botón 5</button>
+            <button type="button" class="btn btn-secondary">Botón 6</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Grupo de botones">
+            <button type="button" class="btn btn-danger">Botón 7</button>
+            <button type="button" class="btn btn-danger">Botón 8</button>
+            <button type="button" class="btn btn-danger">Botón 9</button>
+        </div>
+    </div>
+    <div id="caj5">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Título de la Tarjeta 1</h5>
+                <p class="card-text">Contenido de la tarjeta 1.</p>
+                <a href="#" class="btn btn-primary">Botón 1</a>
+            </div>
+        </div>
+      
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Título de la Tarjeta 2</h5>
+                <p class="card-text">Contenido de la tarjeta 2.</p>
+                <a href="#" class="btn btn-primary">Botón 2</a>
+            </div>
+        </div>
+      
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Título de la Tarjeta 3</h5>
+                <p class="card-text">Contenido de la tarjeta 3.</p>
+                <a href="#" class="btn btn-primary">Botón 3</a>
+            </div>
+        </div>
+    </div>
+    <div id="caj6">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Tarjeta 1</h5>
+                        <p class="card-text">Contenido de la tarjeta 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Tarjeta 2</h5>
+                        <p class="card-text">Contenido de la tarjeta 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Tarjeta 3</h5>
+                        <p class="card-text">Contenido de la tarjeta 3.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div>
+    <div id="caj7">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                        <img src="images/istockphoto-1141024735-612x612.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/istockphoto-1141024735-612x612.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/istockphoto-1141024735-612x612.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+    <div id="caj8">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Mostrar contenido
+          </button>
+          <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Contenido oculto. ¡Ahora me ves!
+                </div>
+          </div>
+    </div>
+    <div id="caj9">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Seleccionar opción
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Opción 1</a>
+                <a class="dropdown-item" href="#">Opción 2</a>
+                <a class="dropdown-item" href="#">Opción 3</a>
+            </div>
+        </div>
+    </div>
+    <div id="caj10">
+        <h1>Formulario</h1>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Modal button
+        </button>
+        <a href="consulta.php"></a>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Título del modal</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="row" action="DB.php" method="POST">
+                            <div class="mb-3 col-6">
+                                <label for="nombre" class="form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+                            </div>
+                            <div class="mb-3 col-6">
+                                <label for="apellidos" class="form-label">Apellidos:</label>
+                                <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="Ingresa tus apellidos">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo electrónico:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje:</label>
+                                <textarea class="form-control" id="mensaje" rows="3" name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary col-2 ms-2">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="consulta">
+            <form action="consulta.php" method="GET">
+                <button type="submit" class="btn btn-primary col-1 mt-2">Consultar</button>
+            </form>
+        </div>
+
+        
+    </div>
+    <div id="caj11">
+        <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputName" class="sr-only">Nombre</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputEmail" class="sr-only">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+        </form>
+    </div>
+    <div id="caj12">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+          
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+        </div>
+          
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingrese su mensaje"></textarea>
+        </div>
+    </div>
+    <div id="caj13">
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingrese su mensaje"></textarea>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <div id="caj14">
+        <div class="jumbotron">
+            <h1 class="display-4">¡Bienvenido!</h1>
+            <p class="lead">Este es un ejemplo de Jumbotron en Bootstrap. Puedes utilizarlo para resaltar contenido importante o mostrar información destacada.</p>
+            <hr class="my-4">
+            <p>¡Explora nuestras características y descubre todo lo que puedes lograr con Bootstrap!</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Ver más</a>
+        </div> 
+    </div>
+    <div id="caj15">
+        <ul class="list-group">
+            <li class="list-group-item">Elemento 1</li>
+            <li class="list-group-item">Elemento 2</li>
+            <li class="list-group-item">Elemento 3</li>
+            <li class="list-group-item">Elemento 4</li>
+            <li class="list-group-item">Elemento 5</li>
+        </ul>
+    </div>
+    <div id="caj16">
+        <div class="list-group">
+            <a href="#item1" class="list-group-item list-group-item-action" data-toggle="list">Elemento 1</a>
+            <a href="#item2" class="list-group-item list-group-item-action" data-toggle="list">Elemento 2</a>
+            <a href="#item3" class="list-group-item list-group-item-action" data-toggle="list">Elemento 3</a>
+        </div>
+          
+        <div class="tab-content">
+            <div class="tab-pane fade" id="item1">
+                Contenido del elemento 1
+            </div>
+            <div class="tab-pane fade" id="item2">
+                Contenido del elemento 2
+            </div>
+            <div class="tab-pane fade" id="item3">
+                Contenido del elemento 3
+            </div>
+        </div>
+          
+    </div>
+    <div id="caj17">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Abrir Modal
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Título del Modal</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Contenido del Modal.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar cambios</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="caj18">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Perfil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contacto</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <h4>Contenido de Inicio</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h4>Contenido de Perfil</h4>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <h4>Contenido de Contacto</h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+            </div>
+        </div>
+    </div>
+    <div id="caj19">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>      
+    </div>
+    <div id="caj20">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#page1" aria-label="Page 1">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#page2" aria-label="Page 2">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#page3" aria-label="Page 3">3</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="caj21">
+        <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">
+            Click to toggle popover
+        </button>
+    </div>
+    <div id="caj22">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
+    <div id="caj23">
+        <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading1">First</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h4 id="scrollspyHeading1">First Heading</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet imperdiet nisi, vel aliquet sem. Sed faucibus vitae magna eu viverra. Aliquam blandit interdum erat et commodo.</p>
+                </div>
+                <div class="col-md-6">
+                  <h4 id="scrollspyHeading2">Second Heading</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet imperdiet nisi, vel aliquet sem. Sed faucibus vitae magna eu viverra. Aliquam blandit interdum erat et commodo.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                  <h4 id="scrollspyHeading3">Third Heading</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet imperdiet nisi, vel aliquet sem. Sed faucibus vitae magna eu viverra. Aliquam blandit interdum erat et commodo.</p>
+                </div>
+                <div class="col-md-6">
+                  <h4 id="scrollspyHeading4">Fourth Heading</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet imperdiet nisi, vel aliquet sem. Sed faucibus vitae magna eu viverra. Aliquam blandit interdum erat et commodo.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-md-12">
+                  <h4 id="scrollspyHeading5">Fifth Heading</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet imperdiet nisi, vel aliquet sem. Sed faucibus vitae magna eu viverra. Aliquam blandit interdum erat et commodo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div id="caj24">
+        <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">Top</button>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">Right</button>
+        <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">Bottom</button>
+        <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">Left</button>
+  
+    </div>
+
+    <script src="code/code.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
